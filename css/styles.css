@@ -94,9 +94,64 @@ h3 {
   margin-top: 80px;
 }
 
+.brand {
+  display: inline-block;
+}
+
+.about-paragraph {
+  font-size: 14px;
+  text-align: center;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.contact-column {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-wrapper {
+  overflow: auto;
+  display: inline-block;
+}
+
+.contact-link {
+  padding-bottom: 30px;
+  line-height: 40px;
+  overflow: auto;
+}
+
+.contact-icon {
+  color: var(--primary-color);
+  font-size: 30px;
+  padding-right: 10px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contact-info {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.contact-info:hover {
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 @media (max-width: 576px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 
   h2 {
@@ -142,5 +197,30 @@ h3 {
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 50px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .contact-column {
+    margin-top: 50px;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+    padding-right: 5px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .contact-link {
+    padding-bottom: 20px;
+    line-height: 30px;
+  }
+
+  .contact-info {
+    font-size: 16px;
   }
 }
