@@ -1,12 +1,38 @@
 /* font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif; */
 
+:root {
+  --primary-color: #8b302d;
+}
+
 body {
+  background: #fce1e0;
   font-family: "Lora", serif;
+  margin: 100px 0;
 }
 
 h1,
-h2 {
+h2,
+h3 {
+  color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-size: 24px;
+  text-transform: none;
+}
+
+.header {
+  margin-top: 100px;
 }
