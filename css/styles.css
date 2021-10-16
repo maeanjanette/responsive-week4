@@ -63,7 +63,7 @@ h3 {
 }
 
 .media-summary {
-  font-size: 11px;
+  font-size: 14px;
   padding: 15px 0;
 }
 
@@ -97,18 +97,53 @@ h3 {
   margin-top: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 60px;
   }
 
   h2 {
     font-size: 20px;
-    text-transform: lowercase;
   }
 
-  h3 {
+  h3,
+  .content-title {
     font-size: 18px;
-    text-transform: none;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .media-row {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .media-title {
+    font-size: 16px;
+  }
+
+  .media-creator {
+    font-size: 10px;
+  }
+
+  .media-summary {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .media-image {
+    display: none;
+  }
+
+  .media-review {
+    font-size: 10px;
+  }
+
+  .reviews-link {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 50px;
   }
 }
