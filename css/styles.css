@@ -2,6 +2,8 @@
   --header-font: "Montserrat", sans-serif;
   --primary-color: #8b302d;
   --secondary-color: #fce1e0;
+  --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  --transition: ease-in-out 0.2s;
 }
 
 body {
@@ -30,6 +32,35 @@ h2 {
 h3 {
   font-size: 24px;
   text-transform: none;
+}
+
+.navbar-branding {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-branding .navbar-brand,
+.navbar-branding .nav-link {
+  color: var(--secondary-color);
+}
+
+.navbar-branding .navbar-brand:hover,
+.navbar-branding .nav-link:hover {
+  color: #fff;
+}
+
+.dropdown-branding {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+}
+
+.dropdown-branding .dropdown-item {
+  color: var(--primary-color);
+}
+
+.dropdown-branding .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .header {
@@ -69,7 +100,7 @@ h3 {
   background: var(--secondary-color);
   font-size: 12px;
   margin-top: 15px;
-  transition: ease-in-out 0.5s;
+  transition: var(--transition);
   border: 1px solid var(--primary-color);
 }
 
@@ -77,6 +108,7 @@ h3 {
   background: var(--primary-color);
   color: var(--secondary-color);
   opacity: 0.9;
+  box-shadow: var(--box-shadow);
 }
 
 .media-image {
@@ -84,6 +116,7 @@ h3 {
   margin: 0 auto;
   max-width: 180px;
   width: 100%;
+  box-shadow: var(--box-shadow);
 }
 
 .reviews-link {
@@ -140,7 +173,7 @@ h3 {
   color: #000;
   font-size: 18px;
   text-decoration: none;
-  transition: ease-in-out 0.2s;
+  transition: var(--transition);
 }
 
 .contact-info:hover {
