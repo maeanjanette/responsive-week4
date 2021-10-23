@@ -182,6 +182,77 @@ h3 {
   text-decoration: underline;
 }
 
+.review-row {
+  margin-bottom: 130px;
+}
+
+.review-info {
+  padding: 10px 0;
+}
+
+.review-info-title,
+.review-more-info-title {
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  font-size: 12px;
+}
+
+.review-info-value,
+.review-more-info-value {
+  font-style: italic;
+  font-family: var(--header-font);
+  font-size: 12px;
+}
+
+.review-summary {
+  margin-bottom: 25px;
+}
+
+.review-media-title {
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.review-media-creator {
+  font-family: var(--header-font);
+  font-size: 18px;
+  font-style: italic;
+}
+
+.review-media-summary,
+.review-paragraph {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.review-title {
+  color: var(--primary-color);
+  font-family: var(--header-font);
+  font-size: 16px;
+}
+
+.review-rating {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.review-more-info-section .main-list {
+  padding-left: 10px;
+  list-style-position: inside;
+}
+
+.review-more-info-section .sub-list {
+  padding-left: 30px;
+  list-style-position: inside;
+}
+
+.review-more-info-section .review-more-info-value {
+  padding-left: 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 55px;
