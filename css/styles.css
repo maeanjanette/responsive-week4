@@ -253,6 +253,12 @@ h3 {
   padding-left: 10px;
 }
 
+.show-character {
+  display: block;
+  font-style: normal;
+  padding-left: 35px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 55px;
