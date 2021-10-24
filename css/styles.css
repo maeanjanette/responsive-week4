@@ -49,6 +49,10 @@ h3 {
   color: #fff;
 }
 
+.navbar-branding .logo {
+  width: 40px;
+}
+
 .navbar-branding .navbar-toggler {
   padding-left: 0;
   padding-right: 0;
@@ -353,6 +357,10 @@ h3 {
 
 .footer-open-source-link:hover {
   color: rgb(var(--primary-color));
+}
+
+.footer-logo .logo {
+  width: 50px;
 }
 
 @media (max-width: 768px) {
