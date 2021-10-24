@@ -141,12 +141,8 @@ h3 {
   text-align: center;
 }
 
-.name {
+.contact-title {
   text-transform: uppercase;
-}
-
-.description {
-  font-size: 16px;
 }
 
 .contact-wrapper {
@@ -251,7 +247,7 @@ h3 {
 
 .review-rating {
   color: rgb(var(--primary-color));
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -341,7 +337,7 @@ h3 {
   color: rgb(var(--primary-color));
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 55px;
   }
@@ -377,10 +373,6 @@ h3 {
     padding: 10px 20px;
   }
 
-  .media-image {
-    display: none;
-  }
-
   .media-review {
     font-size: 10px;
   }
@@ -388,15 +380,40 @@ h3 {
   .reviews-link {
     font-size: 12px;
     margin-top: 0;
-    margin-bottom: 50px;
   }
 
-  .description {
-    font-size: 14px;
+  .review-media-title {
+    font-size: 20px;
   }
 
-  .contact-column {
-    margin-top: 50px;
+  .review-media-creator,
+  .review-title {
+    font-size: 12px;
+  }
+
+  .review-media-summary,
+  .review-paragraph {
+    font-size: 11px;
+  }
+
+  .review-info-title,
+  .review-more-info-title {
+    font-size: 10px;
+  }
+
+  .review-info-value,
+  .review-more-info-value {
+    font-size: 10px;
+  }
+
+  .review-info-item,
+  .review-more-info-section div {
+    text-align: left;
+  }
+
+  .about-paragraph {
+    font-size: 12px;
+    margin: 0 10px;
   }
 
   .contact-icon {
@@ -414,5 +431,9 @@ h3 {
 
   .contact-info {
     font-size: 16px;
+  }
+
+  .email-form {
+    padding: 10px 0;
   }
 }

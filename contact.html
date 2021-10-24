@@ -102,8 +102,8 @@
     <div class="content">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <h2 class="text-center name">Connect</h2>
+          <div class="col-md-4">
+            <h2 class="text-center contact-title">Connect</h2>
             <div class="contact-wrapper">
               <span class="contact-link">
                 <a
@@ -152,21 +152,39 @@
               </span>
             </div>
           </div>
-          <div class="col-sm-8">
-            <h2 class="text-center name">Get in Touch</h2>
+          <div class="d-block d-md-none p-5"></div>
+          <div class="col-md-8">
+            <h2 class="text-center contact-title">Get in Touch</h2>
             <form class="email-form">
-              <div class="mb-3 d-flex justify-content-evenly">
+              <div class="mb-3 d-none d-sm-flex">
                 <input
                   type="text"
                   placeholder="Name *"
-                  class="me-3 flex-fill contact-email-info contact-person-info"
+                  class="me-3 flex-fill contact-email-info"
                   required
                 />
                 <input
                   type="email"
                   placeholder="Email *"
                   name="_replyto"
-                  class="ms-3 flex-fill contact-email-info contact-person-info"
+                  class="ms-3 flex-fill contact-email-info"
+                  required
+                />
+              </div>
+              <div class="mb-3 d-flex d-sm-none">
+                <input
+                  type="text"
+                  placeholder="Name *"
+                  class="flex-fill contact-email-info"
+                  required
+                />
+              </div>
+              <div class="mb-3 d-flex d-sm-none">
+                <input
+                  type="email"
+                  placeholder="Email *"
+                  name="_replyto"
+                  class="flex-fill contact-email-info"
                   required
                 />
               </div>
